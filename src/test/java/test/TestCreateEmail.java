@@ -1,4 +1,4 @@
-package res_email;
+package test;
 
 import core.BaseTest;
 import org.junit.jupiter.api.Test;

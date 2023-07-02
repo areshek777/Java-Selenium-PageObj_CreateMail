@@ -113,28 +113,3 @@ public class MailboxCreationPage extends BasePage {
     }
 
 }
-//    List<String> tabs = new ArrayList(driver.getWindowHandles());
-//        driver.switchTo().window(tabs.get(1));
-//                buttonCreate.click();
-//                String errorArray1 [] = new String[errorsFields.size()];
-//                String textArray1 [] = new String[textsFields.size()];
-//                List<String> errorArray = errorsFields.stream().map(str -> str.getText().toLowerCase()).collect(Collectors.toList());
-//        List<String> textArray = textsFields.stream().map(str -> str.getText().toLowerCase()).collect(Collectors.toList());
-//        //List<String> result = test.stream().filter(test1::contains).collect(Collectors.toList());
-//        System.out.println(errorArray);
-//        System.out.println(textArray);
-//        //замена на коллекцию
-////        for (int i = 0; i < errorArray.length; i++) {
-////            errorArray[i] = errorsFields.get(i).getText().toLowerCase();
-////
-////        }
-////        for(int i = 0; i < textArray.length; i++) {
-////            textArray[i] = textsFields.get(i).getText().toLowerCase();
-////        }
-//        for(int i = 0; i < errorArray.size(); i++) {
-//        for(int j = 0; j < errorArray.size(); j++) {
-//        if(textArray.get(i).endsWith(errorArray.get(j).substring(errorArray.get(j).lastIndexOf( " ")+1))) {
-//        example.put(textArray.get(j), errorArray.get(i));
-//        }
-//        }
-//        }
